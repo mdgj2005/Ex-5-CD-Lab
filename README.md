@@ -13,6 +13,7 @@ To write a YACC program to recognize the grammar anb where n>=10.
 7.	Compile these with the C compiler as gcc lex.yy.c y.tab.c
 8.	Enter a string as input and it is identified as valid or invalid.
 # PROGRAM:
+```
 %{
 #include "y.tab.h"
 %}
@@ -27,6 +28,7 @@ b   { return B; }
 int yywrap() {
     return 1;
 }
+```
 
 # OUTPUT
 ![Screenshot 2025-05-09 092929](https://github.com/user-attachments/assets/0918e9d8-1d0c-4627-89f7-0322a1f931bb)
