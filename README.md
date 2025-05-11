@@ -31,6 +31,7 @@ int yywrap() {
 ```
 # OUTPUT
 ![441996543-0918e9d8-1d0c-4627-89f7-0322a1f931bb](https://github.com/user-attachments/assets/0fb36879-87f2-479e-a556-217c1c999182)
+![441996634-2cae8817-a0ee-4e46-b2f7-ef792156c615](https://github.com/user-attachments/assets/42e0e580-de23-43dc-8716-7490035af9fb)
 
 # RESULT
 The YACC program to recognize the grammar anb where n>=10 is executed successfully and the output is verified.
